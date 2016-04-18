@@ -1,0 +1,23 @@
+<html ng-app="pdpApp">
+    <head>
+        <title>PDP 2016</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <p>
+            <a href="#/">Design Page</a> ||
+            <a href="#/page2">Page 2</a>
+        </p>
+        <div class="pdp-wrapper">
+            <div ng-view></div>
+        </div>
+        <script src="js/angular/lib/angular.js"></script>
+        <script src="js/angular/lib/angular-route.min.js"></script>
+        <script type="text/javascript" src="js/angular/pdp/app.js"></script>
+        <script type="text/javascript" src="js/angular/pdp/routes.js"></script>
+        <script type="text/javascript" src="js/angular/pdp/services.js"></script>
+        <script type="text/javascript" src="js/angular/pdp/controllers/DesignController.js"></script>
+        <script type="text/javascript" src="js/angular/pdp/controllers/Page2Controller.js"></script>
+        <script type="text/javascript" src="js/angular/pdp/directives/loading.js"></script>
+    </body>
+</html>
