@@ -1,0 +1,2 @@
+# AngularAppSkeleton
+Angular Application Skeleton
